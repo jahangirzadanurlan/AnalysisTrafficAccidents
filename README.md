@@ -33,3 +33,17 @@ Vroom Vroom! We examine Vehicle Year, Make, and Model to unravel the enchanting 
 Join us on this exciting journey as we navigate the twists and turns of Maryland's traffic accidents. Together, we can make the roads safer, and this project is just the beginning! Contribute to our GitHub repository and let's work hand in hand to create a brighter, safer driving experience for everyone. Together, we can steer towards a future with fewer accidents and more smiles! 😊🚀
 
 Remember, safety starts with you. Drive responsibly!
+
+https://github.com/jahangirzadanurlan/AnalysisTrafficAccidents/issues/1#issue-1826979757
+
+https://github.com/jahangirzadanurlan/AnalysisTrafficAccidents/issues/2#issue-1826980499
+
+https://github.com/jahangirzadanurlan/AnalysisTrafficAccidents/issues/3#issue-1826990671
+
+https://github.com/jahangirzadanurlan/AnalysisTrafficAccidents/issues/4#issue-1826991240
+
+https://github.com/jahangirzadanurlan/AnalysisTrafficAccidents/issues/5#issue-1826991793
+
+https://github.com/jahangirzadanurlan/AnalysisTrafficAccidents/issues/6#issue-1826992200
+
+https://github.com/jahangirzadanurlan/AnalysisTrafficAccidents/issues/7#issue-1826992705
