@@ -34,9 +34,9 @@ Join us on this exciting journey as we navigate the twists and turns of Maryland
 
 Remember, safety starts with you. Drive responsibly!
 
-https://github.com/jahangirzadanurlan/AnalysisTrafficAccidents/issues/1#issue-1826979757
+<img width="960" alt="Screenshot 2023-07-28 230140" src="https://github.com/jahangirzadanurlan/AnalysisTrafficAccidents/assets/103985861/7a2cc9d6-c76d-427c-9844-ba60107ad82b">
 
-https://github.com/jahangirzadanurlan/AnalysisTrafficAccidents/issues/2#issue-1826980499
+<img width="960" alt="Screenshot 2023-07-28 230413" src="https://github.com/jahangirzadanurlan/AnalysisTrafficAccidents/assets/103985861/fa56ce90-950a-46b2-925f-54b16b4ad782">
 
 https://github.com/jahangirzadanurlan/AnalysisTrafficAccidents/issues/3#issue-1826990671
 
