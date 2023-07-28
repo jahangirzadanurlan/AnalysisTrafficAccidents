@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Accident Analysis</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <style>
+        body {
+            background-color: #f8f8f8;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .left-section {
+            flex: 1;
+            padding-right: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 500px;
+        }
+
+        .right-section {
+            flex: 1;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+
+        #accidentCausesChart {
+            width: 800px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+<h1>Analysis of accidents due to weather conditions </h1>
+<h4>(Collision type,Weather,Surface condition,Light,Traffic control)</h4>
+<div style="display: flex; justify-content: space-between; width: 1870px; margin: 0 auto;">
+    <div class="left-section">
+        <h2 style="color: #009688;padding-left: 25px;">Accident Causes</h2>
+        <ul>
+            <li th:each="entry : ${accidentCauseEntry}">
+                <strong th:text="${entry.key}" style="color: #333;"></strong>: <span th:text="${entry.value}" style="color: #777;"></span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="right-section">
+        <div th:if="${accidentCauseData != null && not #strings.isEmpty(accidentCauseData)}">
+            <div style="width: 1000px; margin: 0 auto;">
+                <canvas id="accidentCausesChart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script th:inline="javascript">
+    var accidentCauseData = /*[[${accidentCauseData}]]*/ '{}';
+    accidentCauseData = JSON.parse(accidentCauseData);
+
+    var chartData = Object.values(accidentCauseData);
+
+    var ctx = document.getElementById('accidentCausesChart').getContext('2d');
+
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: Array.from(Array(chartData.length).keys()),
+            datasets: [{
+                label: '',
+                data: chartData,
+                backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            indexAxis: 'x',
+            plugins: {
+                legend: {
+                    display: false
+                },
+                tooltip: {
+                    enabled: false
+                }
+            },
+            scales: {
+                x: {
+                    beginAtZero: true
+                }
+            },
+            layout: {
+                padding: {
+                    left: 0
+                }
+            },
+            barThickness: 20,
+            categorySpacing: 30,
+            barSpacing: 2
+        }
+    });
+</script>
+
+</body>
+</html>

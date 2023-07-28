@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Accident Counts</title>
+  <style>
+    th, td {
+      padding: 10px;
+    }
+    .red-text {
+      color: red;
+    }
+    .align-right {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+<h1>Accidents</h1>
+<table>
+  <tr>
+    <th></th>
+    <th colspan="1">Date</th>
+    <th colspan="1" class="align-right">Number of Accidents</th>
+  </tr>
+</table>
+<table>
+  <tr th:each="entry : ${accidentCountDay}">
+    <td></td>
+    <td th:text="${entry.key}" th:class="${entry.value > 0}"></td>
+    <td></td>
+    <td th:text="${entry.value}" th:class="${entry.value > 0} ? 'red-text'"></td>
+  </tr>
+</table>
+</body>
+</html>
