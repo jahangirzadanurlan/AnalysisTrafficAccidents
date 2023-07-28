@@ -1,4 +1,4 @@
-# AnalysisTrafficAccidents
+# Analysis Of Traffic Accidents
 
 Traffic Accidents Analysis in Maryland State, USA 🚗📊
 
