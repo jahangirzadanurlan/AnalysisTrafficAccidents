@@ -38,12 +38,14 @@ Remember, safety starts with you. Drive responsibly!
 
 <img width="960" alt="Screenshot 2023-07-28 230413" src="https://github.com/jahangirzadanurlan/AnalysisTrafficAccidents/assets/103985861/fa56ce90-950a-46b2-925f-54b16b4ad782">
 
-https://github.com/jahangirzadanurlan/AnalysisTrafficAccidents/issues/3#issue-1826990671
+<img width="959" alt="Screenshot 2023-07-28 225639" src="https://github.com/jahangirzadanurlan/AnalysisTrafficAccidents/assets/103985861/1d642e25-2872-422d-bb72-d97342e9681f">
 
-https://github.com/jahangirzadanurlan/AnalysisTrafficAccidents/issues/4#issue-1826991240
+<img width="960" alt="Screenshot 2023-07-28 224834" src="https://github.com/jahangirzadanurlan/AnalysisTrafficAccidents/assets/103985861/8ee00274-fc8f-45eb-98ec-b32fd1d4cf56">
 
-https://github.com/jahangirzadanurlan/AnalysisTrafficAccidents/issues/5#issue-1826991793
+<img width="960" alt="Screenshot 2023-07-28 224441" src="https://github.com/jahangirzadanurlan/AnalysisTrafficAccidents/assets/103985861/ac7df1b0-f8a7-4c79-a633-4c163fb15e24">
 
-https://github.com/jahangirzadanurlan/AnalysisTrafficAccidents/issues/6#issue-1826992200
+<img width="960" alt="Screenshot 2023-07-28 224427" src="https://github.com/jahangirzadanurlan/AnalysisTrafficAccidents/assets/103985861/024f3b0b-a603-4325-a680-9de0098444ce">
 
-https://github.com/jahangirzadanurlan/AnalysisTrafficAccidents/issues/7#issue-1826992705
+
+<img width="634" alt="Screenshot 2023-07-28 222205" src="https://github.com/jahangirzadanurlan/AnalysisTrafficAccidents/assets/103985861/25e568ac-97b5-49f6-b485-29eee993bc91">
+
